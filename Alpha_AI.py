@@ -67,10 +67,11 @@ def take_command():
 
 
 if __name__ == "__main__":
-    speak("Welcome to Alpha AI")
+    speak("Welcome, to Alpha, AI")
+    speak("Which field do you need me to advise you? Career, finance, or gym")
 
     while True:
-        speak("Which field do you need me to advise you? Career or Finance?")
+        
         query = take_command()
 
         if query is None:
